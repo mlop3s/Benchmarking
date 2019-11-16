@@ -27,7 +27,7 @@ namespace Benchmarking
         {
             for (int i = 0; i < N; i++)
             {
-                var now = DateTime.Now;
+                var now = DateTime.UtcNow;
             }
         }
 
